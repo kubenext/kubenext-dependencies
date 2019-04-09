@@ -83,6 +83,7 @@
         <commons-lang.version>2.6</commons-lang.version>
         <guava.version>23.0</guava.version>
         <problem-spring-web.version>0.23.0</problem-spring-web.version>
+        <logstash-logback-encoder.version>5.3</logstash-logback-encoder.version>
     </properties>
 
     <dependencyManagement>
@@ -141,6 +142,11 @@
                 <groupId>org.zalando</groupId>
                 <artifactId>problem-spring-web</artifactId>
                 <version>${problem-spring-web.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.logstash.logback</groupId>
+                <artifactId>logstash-logback-encoder</artifactId>
+                <version>${logstash-logback-encoder.version}</version>
             </dependency>
 
 
